@@ -1,0 +1,8 @@
+CREATE TABLE favorites
+(
+  id SERIAL PRIMARY KEY,
+  petfinder_id character varying(255) NOT NULL,
+  pet_name character varying(255),
+  pet_image_url character varying(255),
+  pet_description character varying(100)
+);
